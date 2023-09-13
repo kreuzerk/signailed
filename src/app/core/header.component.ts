@@ -10,6 +10,7 @@ import {RouterLink} from "@angular/router";
   template: `
     <nav>
       <a routerLink="example-one">Example one</a>
+      <a routerLink="example-two">Example two</a>
     </nav>`
 })
 export class HeaderComponent {
