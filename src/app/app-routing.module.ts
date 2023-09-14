@@ -23,6 +23,13 @@ const routes: Routes = [
         (c) => c.ExampleThreeComponent
       ),
   },
+  {
+    path: 'example-four',
+    loadComponent: () =>
+      import('./features/example-four/example-four.component').then(
+        (c) => c.ExampleFourComponent
+      ),
+  },
 ];
 
 @NgModule({
