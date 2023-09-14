@@ -30,6 +30,13 @@ const routes: Routes = [
         (c) => c.ExampleFourComponent
       ),
   },
+  {
+    path: 'example-five',
+    loadComponent: () =>
+      import('./features/example-five/example-five.component').then(
+        (c) => c.ExampleFiveComponent
+      ),
+  }
 ];
 
 @NgModule({
